@@ -2,9 +2,7 @@
 
 ## 1、介绍
 在进行网络请求时,经常需要对参数进行UrlEncode编码,本软件包可以比较方便的对参数进行编码以及解码.
-UrlEncode 软件包功能特点如下:
-- 支持对字符串进行UrlEncode编码;
-- 支持对字符串进行UrlDecode解码;
+>URL编码(URL encoding)，也称作百分号编码(Percent-encoding)， 是特定上下文的统一资源定位符 (URL)的编码机制。用于统一资源标识符(URI)的编码，也用于为"application/x-www-form-urlencoded" MIME准备数据， 因为它用于通过HTTP的请求操作(request)提交HTML表单数据。
 
 
 ### 1.1 目录结构
