@@ -1,7 +1,7 @@
 # UrlEncode
 
 ## 1、介绍
-
+在进行网络请求时,经常需要对参数进行UrlEncode编码,本软件包可以比较方便的对参数进行编码以及解码.
 UrlEncode 软件包功能特点如下:
 - 支持对字符串进行UrlEncode编码;
 - 支持对字符串进行UrlDecode解码;
@@ -39,7 +39,7 @@ UrlEncode 软件包遵循 LGPLv2.1  许可，详见 LICENSE 文件。
 ```
 RT-Thread online packages
     tools packages  --->
-         [*] UrlEncode: Encode/Decode Url
+         [*] UrlEncode: a simple tool to Encode/Decode Url
                 [*] Use Examples
                 Version (latest)  --->
 ```
