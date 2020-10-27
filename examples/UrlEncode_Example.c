@@ -21,7 +21,7 @@ int UrlEncode_test(int argc, char* argv[])
     UrlEncode(src, obj, 200);
 
     rt_kprintf("result: %s\n", obj);
-    rt_kprintf("result: %d\n", rt_strlen(obj));
+    rt_kprintf("result length: %d\n", rt_strlen(obj));
  
     return 0;
 }
@@ -48,7 +48,7 @@ int UrlDecode_test(int argc, char* argv[])
     UrlDecode(src, obj, 100);
 
     rt_kprintf("result: %s\n", obj);
-    rt_kprintf("result: %d\n", rt_strlen(obj));
+    rt_kprintf("result length: %d\n", rt_strlen(obj));
  
     return 0;
 }

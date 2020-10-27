@@ -34,7 +34,7 @@ int UrlEncode(const char *str, char *result, const int max_length)
         {
             if (j + 3 < max_length)
             {
-                sprintf(result + j, "%%%02X", (unsigned char)ch);
+                rt_sprintf(result + j, "%%%02X", (unsigned char)ch);
                 j += 3;
             }
             else
